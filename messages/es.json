@@ -2,7 +2,18 @@
   "HomePage": {
     "title": "Hola Mundo!"
   },
-  "Header": {
+  "Hero": {
+    "title": "Crowderr busca revolucionar la manera en que distribuyes tu música!",
+    "subtitle": "Empieza a distribuir tu música en todas las principales plataformas y sin entregar tus derechos, además de recolectar y pagar regalías generadas.",
+    "message1": "+ reportes de regalías",
+    "message2": "+ content ID",
+    "message3": "más tiendas digitales",
+    "message4": "fast delivery",
+    "message5": "+ tiendas",
+    "message6": "estrategias de lanzamiento",
+    "message7": "distribución musical"
+  },
+  "Navigation": {
     "home": "inicio",
     "about": "acerca de",
     "services": "servicios",

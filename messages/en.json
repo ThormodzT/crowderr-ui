@@ -2,7 +2,18 @@
   "HomePage": {
     "title": "Hello world!"
   },
-  "Header": {
+  "Hero": {
+    "title": "Crowderr seeks to revolutionize the way you distribute your music!",
+    "subtitle": "Start distributing your music on all major platforms without giving up your rights, while also collecting and receiving generated royalties.",
+    "message1": "+ royalty reports",
+    "message2": "+ content ID",
+    "message3": "more digital stores",
+    "message4": "fast delivery",
+    "message5": "+ stores",
+    "message6": "launch strategies",
+    "message7": "music distribution"
+  },
+  "Navigation": {
     "home": "home",
     "about": "about",
     "services": "services",

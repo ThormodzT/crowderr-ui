@@ -1,6 +1,5 @@
 import { Menu } from "@/app/types/menu";
 
-
 const menuData: Menu[] = [
   {
     id: 1,
@@ -22,12 +21,6 @@ const menuData: Menu[] = [
   },
   {
     id: 4,
-    title: "terms",
-    path: "/terms",
-    newTab: false,
-  },
-  {
-    id: 5,
     title: "support",
     path: "/contact",
     newTab: false,

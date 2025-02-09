@@ -9,9 +9,12 @@ import { SignedOut, SignInButton } from "@clerk/nextjs";
 import ClerkSignInButton from "./SignInButton";
 import { useTranslations } from "next-intl";
 import LangSwitcher from "./LangSwitcher";
+import { useTheme } from "next-themes";
 
 const Header = () => {
-  const t = useTranslations("Header");
+  const t = useTranslations("Navigation");
+
+  const { theme } = useTheme();
 
   // Navbar toggle
   const [navbarOpen, setNavbarOpen] = useState(false);
@@ -50,7 +53,9 @@ const Header = () => {
         className={`header left-0 top-0 z-40 flex w-full items-center ${
           sticky
             ? "dark:bg-gray-dark dark:shadow-sticky-dark fixed z-[9999] bg-white !bg-opacity-80 shadow-sticky backdrop-blur-sm transition"
-            : "absolute bg-transparent"
+            : theme === "dark"
+            ? "absolute bg-transparent"
+            : "fixed z-[9999] bg-white !bg-opacity-80 shadow-sticky backdrop-blur-sm transition"
         }`}
       >
         <div className="container">
