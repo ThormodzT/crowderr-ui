@@ -1,0 +1,15 @@
+{
+  "HomePage": {
+    "title": "Hola Mundo!"
+  },
+  "Header": {
+    "home": "inicio",
+    "about": "acerca de",
+    "services": "servicios",
+    "terms": "terminos y condiciones",
+    "support": "soporte"
+  },
+  "Common": {
+    "signIn": "Ingresar"
+  }
+}
